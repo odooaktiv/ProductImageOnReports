@@ -13,13 +13,12 @@
     'website': 'www.aktivsoftware.com',
     'data': [
         'views/report_invoice.xml',
-        'views/sale_report_template.xml',
-        'views/purchase_order_templates.xml'
+        'views/report_saleorder.xml',
+        'views/report_purchaseorder.xml',
 
     ],
     'images': [],
     'images': ['static/description/banner.jpg'],
-    'installable': True,
     'installable': True,
     'auto_install': False,
 }
