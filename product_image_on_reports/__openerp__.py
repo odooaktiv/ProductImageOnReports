@@ -2,10 +2,10 @@
 
 {
     'name': 'Product Image on Sales Invoice Purchase Report',
-    'version': '1.0',
+    'version': '9.0.1.0.0',
+    'license': 'AGPL-3',
+    'summary': '''This module shows image of product on reports such as sales, invoice and purchase''',
     'category': 'Sale',
-    'summary': '''
-        ''',
     'author': 'Aktiv Software',
     'depends': [
         'sale', 'purchase'
@@ -17,7 +17,6 @@
         'views/report_purchaseorder.xml',
 
     ],
-    'images': [],
     'images': ['static/description/banner.jpg'],
     'installable': True,
     'auto_install': False,
