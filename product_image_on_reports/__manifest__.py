@@ -1,7 +1,7 @@
 # -*- coding: utf-8 -*-
 
 {
-    'name': 'Product Image on Sales Invoice Purchase Report',
+    'name': 'Product Image on Reports',
     'version': '10.0.1.0.0',
     'category': 'Sale',
     'license': 'AGPL-3',
