@@ -5,7 +5,7 @@
          <th>Image</th>
     </xpath>
     <xpath expr="//table[1]/tbody/tr/td[1]" position="before">
-        <td><span t-field="line.product_id.image_small" t-field-options='{"widget": "image"}'/></td>
+        <td><span t-field="line.product_id.image_small" t-options='{"widget": "image"}'/></td>
     </xpath>
 </template>
 </odoo>

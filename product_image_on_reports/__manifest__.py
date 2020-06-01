@@ -2,7 +2,7 @@
 
 {
     'name': 'Product Image on Reports',
-    'version': '11.0.1.0.0',
+    'version': '12.0.1.0.0',
     'category': 'Sale',
     'license': 'AGPL-3',
     'summary': '''This module shows image of product on reports such as sales, invoice and purchase''',

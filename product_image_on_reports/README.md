@@ -1,7 +1,7 @@
 Product Image on Sales Invoice Purchase Report
 ----------------------------------------------
 
-Odoo Version : Odoo 11.0 Community
+Odoo Version : Odoo 12.0 Community
 
 Installation 
 -------------------------------------
