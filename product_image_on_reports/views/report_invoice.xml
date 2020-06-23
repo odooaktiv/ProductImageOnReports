@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <odoo>
 <template id="report_invoice_document_inherit_product_image_on_reports" inherit_id="account.report_invoice_document">
-    <xpath expr="//table[1]/thead/tr/th[1]" position="before">
+    <xpath expr="//t/div/table[1]/thead/tr/th[1]" position="before">
          <th>Image</th>
     </xpath>
-    <xpath expr="//table[1]/tbody/tr/td[1]" position="before">
+    <xpath expr="//t/div/table[1]/tbody/tr/td[1]" position="before">
         <td><span t-field="l.product_id.image_small" t-field-options='{"widget": "image"}'/></td>
     </xpath>
 </template>
