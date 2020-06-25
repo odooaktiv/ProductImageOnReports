@@ -4,8 +4,10 @@
     <xpath expr="//t/div/table[1]/thead/tr/th[1]" position="before">
          <th>Image</th>
     </xpath>
-    <xpath expr="//t/div/table[1]/tbody/tr/td[1]" position="before">
-        <td><span t-field="line.product_id.image_small" t-options='{"widget": "image"}'/></td>
+    <xpath expr="//t/div/table[1]/tbody/t/tr/t/td[1]" position="before">
+        <td>
+        	<img t-attf-src="data:image/*;base64,{{line.product_id.image_1920}}" style="width:95%;height:20%"/>
+        </td>
     </xpath>
 </template>
 </odoo>
