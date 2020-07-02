@@ -5,7 +5,7 @@
     'version': '9.0.1.0.0',
     'license': 'AGPL-3',
     'summary': '''This module shows image of product on reports such as sales, invoice and purchase''',
-    'category': 'Sale',
+    'category': 'Extra Tools',
     'author': 'Aktiv Software',
     'depends': [
         'sale', 'purchase'
