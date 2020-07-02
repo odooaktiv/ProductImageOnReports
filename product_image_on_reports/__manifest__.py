@@ -3,7 +3,7 @@
 {
     'name': 'Product Image on Reports',
     'version': '10.0.1.0.0',
-    'category': 'Sale',
+    'category': 'Extra Tools',
     'license': 'AGPL-3',
     'summary': '''This module shows image of product on reports such as sales, invoice and purchase''',
     'author': 'Aktiv Software',
